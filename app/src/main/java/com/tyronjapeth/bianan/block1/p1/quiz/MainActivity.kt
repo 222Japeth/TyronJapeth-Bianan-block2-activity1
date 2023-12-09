@@ -22,13 +22,13 @@ class MainActivity : AppCompatActivity() {
             val username = editTextUsername.text.toString()
             val password = editTextPassword.text.toString()
 
-            // Replace these lines with your login logic
+
             if (username == "your_username" && password == "your_password") {
-                // Successful login
+
                 showToast("Login successful")
-                // Here you might navigate to another activity or perform necessary actions
+
             } else {
-                // Failed login
+
                 showToast("Invalid credentials")
             }
         }
